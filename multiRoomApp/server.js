@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const mime = require("mime");
 
-const chatServer = require("./lib/chat_server");
+const chatServer = require("../lib/chat_server");
 const cache = {};
 
 function send404(response) {
